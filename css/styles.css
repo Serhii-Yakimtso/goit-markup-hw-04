@@ -1,5 +1,7 @@
-* {
-  /* outline: 1px solid tomato; */
+*,
+*::before,
+*::after {
+  outline: 1px solid tomato;
   box-sizing: border-box;
 }
 
@@ -148,21 +150,28 @@ img {
 .address-link:hover,
 .address-link:focus,
 .nav-logo .logo:hover,
-.nav-logo .logo:focus,
-.footer-logo:hover,
-.footer-logo:focus,
-.footer-logo .logo:hover,
-.footer-logo .logo:focus {
+.nav-logo .logo:focus {
   color: #404bbf;
 }
 
 /* ================HERO================ */
 
 .hero {
+  background-color: #2e2f42;
+}
+
+.hero .container {
   padding-top: 188px;
   padding-bottom: 188px;
 
-  background-color: #2e2f42;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url('../images/people-office.jpg');
+
+  background-size: cover;
 }
 
 .page-title {
@@ -210,8 +219,8 @@ img {
   cursor: pointer;
 }
 
-.hero .btn:hover,
-.hero .btn:focus {
+.hero-btn:hover,
+.hero-btn:focus {
   background-color: #404bbf;
 }
 
@@ -398,6 +407,13 @@ img {
 
 .footer-logo .logo {
   color: #f4f4fd;
+}
+
+.footer-logo:hover,
+.footer-logo:focus,
+.footer-logo .logo:hover,
+.footer-logo .logo:focus {
+  color: #404bbf;
 }
 
 .footer-text {
