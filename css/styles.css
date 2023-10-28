@@ -517,8 +517,14 @@ img {
   background-color: #2e2f42;
 }
 
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+
 .footer-logo {
   width: 264px;
+  margin-right: 120px;
 }
 
 .footer-logo-link {
@@ -563,14 +569,11 @@ img {
   color: #f4f4fd;
 }
 
-.footer-container {
-  display: flex;
-  gap: 120px;
-}
-
 .footer-social-text {
   margin-bottom: 16px;
   font-weight: 500;
+
+  color: #ffffff;
 }
 
 .footer-social-list {
