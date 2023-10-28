@@ -197,7 +197,7 @@ img {
   background-color: #2e2f42;
 }
 
-.hero .container {
+.hero-container {
   padding-top: 188px;
   padding-bottom: 188px;
 
@@ -207,7 +207,7 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url('../images/people-office.jpg');
+    url(../images/img-name.jpg);
 
   background-size: cover;
   background-repeat: no-repeat;
