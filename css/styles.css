@@ -202,10 +202,25 @@ img {
 
 .hero {
   background-color: #2e2f42;
+
+  background-image: linear-gradient(
+      to bottom,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/img-name.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #2e2f42;
+  max-width: 1440px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 188px 0;
 }
 
 .hero-container {
-  padding: 188px 0;
+  /* padding: 188px 0;
 
   max-width: 1440px;
 
@@ -219,7 +234,7 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
 
-  text-align: center;
+  text-align: center; */
 }
 
 .page-title {
